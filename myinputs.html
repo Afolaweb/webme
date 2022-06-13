@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My inputs</title>
+  </head>
+  <body>
+       <h1>Form inputs</h1>  
+     <form >
+          <label for="Name">Name</label>
+          <input type="text"> <br>
+  
+          <button>Submit</button> <br> <br>
+  
+          <label for="foodstuffs">Choose a food</label>
+          <input list="foodstuffs">
+         <datalist id="foodstuffs">
+             <option value="Rice">
+             <option value="Beans"></option>
+             <option value="Spaghetti"></option>
+             <option value="Yam"></option> 
+         </datalist> 
+         <fieldset>
+             <legend>Choose your Favorite Gospel Artist</legend>
+  
+             <input type="radio">
+             <label for="Dunsin Oyekan">Dunsin Oyekan</label> <br>
+  
+             <input type="radio">
+             <label for="Jay Mikey">Jay Mikey</label>  <br>
+  
+             <input type="radio">
+             <label for="Sinach">Sinach</label> <br>
+  
+             <input type="radio">
+             <label for="Travis Greene">Travis Greene</label> <br>
+  
+             <input type="radio">
+             <label for="Nathaniel Bassey">Nathaniel Bassey</label> <br>
+         </fieldset>
+      </form>
+  
+
+      <form>
+
+            <label for="classes of food select">Choose a Food:</label> <br>
+         <select name="Classes of Food" id="food">
+               <optgroup label="Carbohydrates">
+                 <option value="">Rice</option>
+                 <option value="">Bread</option>
+                 <option value="">Yam</option>
+               </optgroup>
+
+               <optgroup label="Protein">
+                 <option value="">Beans</option>
+                 <option value="">Meat</option>
+                 <option value="">Egg</option>
+               </optgroup>
+          </select>
+      </form>
+   </body>
+</html>
